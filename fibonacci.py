@@ -3,8 +3,7 @@ def fibonacci(n):
     a, b = 0, 1
     while len(fibonacci_series) < n:
         fibonacci_series.append(a)
-        c = a + b
-        a, b = b, c
+        a, b = b, a + b
     return fibonacci_series
 
 n = 20
