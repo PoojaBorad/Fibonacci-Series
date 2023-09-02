@@ -7,6 +7,6 @@ def fibonacci(n):
         a, b = b, c
     return fibonacci_series
 
-n = 20
+n = int(input("Enter the number of Fibonacci length to generate: "))
 answer = fibonacci(n)
 print(answer)
